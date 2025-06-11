@@ -16,7 +16,9 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-     
       # Runs a single command using the runners shell
       - name: Echo terminal
         run: echo Hello, world!
+        
+      - name: Di la Fecha de HOY
+        run: date
